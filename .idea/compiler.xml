@@ -2,8 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Problems-Assignments_main" target="11" />
+      <module name="Problems-Assignments_test" target="11" />
+      <module name="Problems-Fill_the_declaration_main" target="11" />
+      <module name="Problems-Fill_the_declaration_test" target="11" />
       <module name="Problems-From_0_to_4_main" target="11" />
       <module name="Problems-From_0_to_4_test" target="11" />
+      <module name="Problems-Hello,_Java_platform_main" target="11" />
+      <module name="Problems-Hello,_Java_platform_test" target="11" />
+      <module name="Problems-Invalid_declaration_of_variables_main" target="11" />
+      <module name="Problems-Invalid_declaration_of_variables_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-We_need_to_learn_Java_main" target="11" />
