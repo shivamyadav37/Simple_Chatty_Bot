@@ -20,6 +20,14 @@
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-We_need_to_learn_Java_main" target="11" />
       <module name="Problems-We_need_to_learn_Java_test" target="11" />
+      <module name="Problems__1_-Incorrect_comments_-_2_main" target="11" />
+      <module name="Problems__1_-Incorrect_comments_-_2_test" target="11" />
+      <module name="Problems__2_-Reading_integer_numbers_main" target="11" />
+      <module name="Problems__2_-Reading_integer_numbers_test" target="11" />
+      <module name="Problems__3_-Reading_integer_numbers_main" target="11" />
+      <module name="Problems__3_-Reading_integer_numbers_test" target="11" />
+      <module name="Problems__4_-Reading_integer_numbers_main" target="11" />
+      <module name="Problems__4_-Reading_integer_numbers_test" target="11" />
       <module name="Simple_Chatty_Bot-task_main" target="11" />
       <module name="Simple_Chatty_Bot-task_test" target="11" />
       <module name="util_main" target="11" />
