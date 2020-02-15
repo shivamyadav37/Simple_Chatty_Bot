@@ -30,6 +30,8 @@
       <module name="Problems__13_-Snail_test" target="11" />
       <module name="Problems__14_-Decrement_all_main" target="11" />
       <module name="Problems__14_-Decrement_all_test" target="11" />
+      <module name="Problems__15_-Replacing_'a'_with_'b'_main" target="11" />
+      <module name="Problems__15_-Replacing_'a'_with_'b'_test" target="11" />
       <module name="Problems__1_-Incorrect_comments_-_2_main" target="11" />
       <module name="Problems__1_-Incorrect_comments_-_2_test" target="11" />
       <module name="Problems__2_-Reading_integer_numbers_main" target="11" />
