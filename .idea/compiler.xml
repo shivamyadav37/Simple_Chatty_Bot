@@ -36,8 +36,14 @@
       <module name="Problems__16_-Check_prefix_ignoring_the_case_test" target="11" />
       <module name="Problems__17_-Comparing_strings_ignoring_whitespaces_main" target="11" />
       <module name="Problems__17_-Comparing_strings_ignoring_whitespaces_test" target="11" />
+      <module name="Problems__18_-Check_the_value_main" target="11" />
+      <module name="Problems__18_-Check_the_value_test" target="11" />
+      <module name="Problems__19_-Check_the_value_main" target="11" />
+      <module name="Problems__19_-Check_the_value_test" target="11" />
       <module name="Problems__1_-Incorrect_comments_-_2_main" target="11" />
       <module name="Problems__1_-Incorrect_comments_-_2_test" target="11" />
+      <module name="Problems__20_-Is_between_main" target="11" />
+      <module name="Problems__20_-Is_between_test" target="11" />
       <module name="Problems__2_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__2_-Reading_integer_numbers_test" target="11" />
       <module name="Problems__3_-Reading_integer_numbers_main" target="11" />
