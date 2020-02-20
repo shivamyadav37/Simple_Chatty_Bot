@@ -7,15 +7,15 @@ class Main {
         int B = scanner.nextInt();
         int C = scanner.nextInt();
 
-        if ((A+B) >C){
+        if ((A+B) >C && (A+C)> B && (B+C) > A){
+            System.out.println("YES");
+        }/*
+        else if (){
             System.out.println("YES");
         }
-        else if ((A+C)> B){
+        else if (){
             System.out.println("YES");
-        }
-        else if ((B+C) > A){
-            System.out.println("YES");
-        }
+        }*/
         else {
             System.out.println("NO");
         }

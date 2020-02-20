@@ -54,6 +54,10 @@
       <module name="Problems__24_-Healthy_sleep_test" target="11" />
       <module name="Problems__25_-Triangle_main" target="11" />
       <module name="Problems__25_-Triangle_test" target="11" />
+      <module name="Problems__26_-Chocolate_main" target="11" />
+      <module name="Problems__26_-Chocolate_test" target="11" />
+      <module name="Problems__27_-Chocolate_main" target="11" />
+      <module name="Problems__27_-Chocolate_test" target="11" />
       <module name="Problems__2_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__2_-Reading_integer_numbers_test" target="11" />
       <module name="Problems__3_-Reading_integer_numbers_main" target="11" />
