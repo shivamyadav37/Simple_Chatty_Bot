@@ -1,23 +1,20 @@
 import java.util.Scanner;
 
 class Main {
-    public static int main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-        int M = sc.nextInt();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int n = scanner.nextInt();
+        int counter= 0;
+        for(int i = a ; i<= b ; i++){
+            if (i%n==0)
+                counter++;
 
-        int countDivisibles(){
-            // Variable to store the counter
-            int counter = 0;
 
-            // Running a loop from A to B and check
-            // if a number is divisible by M.
-            for (int i = A; i <= B; i++)
-                if (i % M == 0)
-                    counter++;
-
-            return counter;
         }
+        System.out.println(counter);
+       // return a;
     }
+
 }
