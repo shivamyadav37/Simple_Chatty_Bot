@@ -82,8 +82,12 @@
       <module name="Problems__37_-Reversing_test" target="11" />
       <module name="Problems__38_-The_sum_of_elements_main" target="11" />
       <module name="Problems__38_-The_sum_of_elements_test" target="11" />
+      <module name="Problems__39_-Arithmetic_average_main" target="11" />
+      <module name="Problems__39_-Arithmetic_average_test" target="11" />
       <module name="Problems__3_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__3_-Reading_integer_numbers_test" target="11" />
+      <module name="Problems__40_-Collatz_conjecture_main" target="11" />
+      <module name="Problems__40_-Collatz_conjecture_test" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_test" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_main" target="11" />
