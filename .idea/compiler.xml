@@ -100,6 +100,10 @@
       <module name="Problems__45_-Collatz_conjecture_test" target="11" />
       <module name="Problems__46_-Profit_main" target="11" />
       <module name="Problems__46_-Profit_test" target="11" />
+      <module name="Problems__47_-Even_or_odd_main" target="11" />
+      <module name="Problems__47_-Even_or_odd_test" target="11" />
+      <module name="Problems__48_-Bus_tour_main" target="11" />
+      <module name="Problems__48_-Bus_tour_test" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_test" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_main" target="11" />
