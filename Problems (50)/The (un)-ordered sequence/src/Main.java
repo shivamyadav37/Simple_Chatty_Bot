@@ -5,19 +5,19 @@ class Main {
     public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
         Scanner sc = new Scanner(System.in);
         String[] myStrArray = sc.nextLine().split(" ");
-        String[] arrayWithoutZero = Arrays.copyOf(myStrArray, myStrArray.length + 1);
+        String[] arrayWithoutZero = Arrays.copyOf(myStrArray, myStrArray.length - 1);
         boolean asc = false;
         boolean desc = false;
 
-        for (String s : myStrArray) {
-            System.out.print(s + " ");
-        }
+        //for (String s : arrayWithoutZero) {
+        //  System.out.print(s + " ");
+        //}
 
         // Check ascending
-        for (int i = 0; i < myStrArray.length; i++) {
-
-            if (Integer.parseInt(arrayWithoutZero[i]) >= Integer.parseInt(myStrArray[i + 1])) {
+        for (int i = 0; i < arrayWithoutZero.length; i++) {
+            if (Integer.parseInt(arrayWithoutZero[i]) >= Integer.parseInt(arrayWithoutZero[i + 1])) {
                 asc = true;
+                break;
             } else {
                 asc = false;
                 break;
@@ -26,16 +26,17 @@ class Main {
 
 
         // Check descending
-        for (int i = 0; i < myStrArray.length; i++) {
-            if (Integer.parseInt(arrayWithoutZero[i]) <= Integer.parseInt(myStrArray[i + 1])) {
+        for (int i = 0; i < arrayWithoutZero.length; i++) {
+            if (Integer.parseInt(arrayWithoutZero[i]) <= Integer.parseInt(arrayWithoutZero[i + 1])) {
                 desc = true;
+                break;
             } else {
                 desc = false;
                 break;
             }
         }
 
-        if (myStrArray.length <= 1) {
+        if (arrayWithoutZero.length <= 1) {
             System.out.println(true);
         } else if (asc || desc) {
             System.out.println(true);
