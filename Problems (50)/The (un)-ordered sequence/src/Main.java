@@ -5,6 +5,7 @@ class Main {
     public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
         Scanner sc = new Scanner(System.in);
         String[] myStrArray = sc.nextLine().split(" ");
+        String[] arrayWithoutZero = Arrays.copyOf(myStrArray, myStrArray.length + 1);
         boolean asc = false;
         boolean desc = false;
 
@@ -14,7 +15,7 @@ class Main {
 
         // Check ascending
         for (int i = 0; i < myStrArray.length; i++) {
-            String[] arrayWithoutZero = Arrays.copyOf(myStrArray, myStrArray.length - 1);
+
             if (Integer.parseInt(arrayWithoutZero[i]) >= Integer.parseInt(myStrArray[i + 1])) {
                 asc = true;
             } else {
@@ -26,7 +27,6 @@ class Main {
 
         // Check descending
         for (int i = 0; i < myStrArray.length; i++) {
-            String[] arrayWithoutZero = Arrays.copyOf(myStrArray, myStrArray.length - 1);
             if (Integer.parseInt(arrayWithoutZero[i]) <= Integer.parseInt(myStrArray[i + 1])) {
                 desc = true;
             } else {
