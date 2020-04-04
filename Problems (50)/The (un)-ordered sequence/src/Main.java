@@ -17,11 +17,10 @@ class Main {
         for (int i = 0; i < arrayWithoutZero.length; i++) {
             if (Integer.parseInt(arrayWithoutZero[i]) >= Integer.parseInt(arrayWithoutZero[i + 1])) {
                 asc = true;
-                break;
             } else {
                 asc = false;
-                break;
             }
+            break;
         }
 
 
