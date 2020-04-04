@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-
-        Scanner in = new Scanner(System.in);
-        int number = in.nextInt();
-
-
-        while (number != 0 &&) ;
-        if (number % 2 == 0) {
-            System.out.println("even");
-        } else {
-            System.out.println("odd");
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int input = sc.nextInt();
+            if (input == 0) {
+                break;
+            } else {
+                System.out.println(input % 2 == 0 ? "even" : "odd");
+            }
         }
     }
+
 }
+
