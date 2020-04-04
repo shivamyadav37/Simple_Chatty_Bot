@@ -3,17 +3,25 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int busHeight = sc.nextInt();
-        int numberOfBridges = sc.nextInt();
-        int counter = 0;
-        while (true) {
-            int heightsOfBridges = sc.nextInt();
-            counter++;
-            if (counter == numberOfBridges) {
+
+        int heightOfBus = sc.nextInt();
+        int numOfBridges = sc.nextInt();
+        boolean willCrash = false;
+        int[] heightsOfBridges = new int[numOfBridges];
+
+        for (int i = 0; i < numOfBridges; i++) {
+            heightsOfBridges[i] = sc.nextInt();
+            if (heightsOfBridges[i] <= heightOfBus) {
+                System.out.println("Will crash on bridge " + (i + 1));
+                willCrash = true;
                 break;
             } else {
-                System.out.println(heightsOfBridges);
+                continue;
             }
+        }
+
+        if (!willCrash) {
+            System.out.println("Will not crash");
         }
 
     }
