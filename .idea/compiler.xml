@@ -104,8 +104,12 @@
       <module name="Problems__47_-Even_or_odd_test" target="11" />
       <module name="Problems__48_-Bus_tour_main" target="11" />
       <module name="Problems__48_-Bus_tour_test" target="11" />
+      <module name="Problems__49_-The__un_-ordered_sequence_main" target="11" />
+      <module name="Problems__49_-The__un_-ordered_sequence_test" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_main" target="11" />
       <module name="Problems__4_-Reading_integer_numbers_test" target="11" />
+      <module name="Problems__50_-The__un_-ordered_sequence_main" target="11" />
+      <module name="Problems__50_-The__un_-ordered_sequence_test" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_main" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_test" target="11" />
       <module name="Problems__6_-Printing_a_magic_letter_main" target="11" />
