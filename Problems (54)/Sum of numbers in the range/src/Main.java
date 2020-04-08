@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     /**
      * The method calculates the sum of integers in a given range
      *
@@ -10,10 +11,13 @@ public class Main {
      * @return the sum (long)
      */
     public static long sumInRange(int from, int to) {
-        int m = from / to;
-        int sum = m * (m + 1 / 2);
-        int ans = from * sum;
-        return ans;
+        long sum = 0;
+        while (from < to) {
+            sum = sum + from;
+            from++;
+        }
+        return sum;
+
     }
 
     /* Do not change code below */
