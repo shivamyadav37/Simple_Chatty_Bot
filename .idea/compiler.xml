@@ -116,6 +116,8 @@
       <module name="Problems__52_-Vowel_or_not_test" target="11" />
       <module name="Problems__53_-Vowel_or_not_main" target="11" />
       <module name="Problems__53_-Vowel_or_not_test" target="11" />
+      <module name="Problems__54_-Sum_of_numbers_in_the_range_main" target="11" />
+      <module name="Problems__54_-Sum_of_numbers_in_the_range_test" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_main" target="11" />
       <module name="Problems__5_-Printing_strings_in_the_same_order_test" target="11" />
       <module name="Problems__6_-Printing_a_magic_letter_main" target="11" />
