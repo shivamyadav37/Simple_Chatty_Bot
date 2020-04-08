@@ -8,5 +8,6 @@ IntelliJ IDEA
 ### Installation
 
 ```
-Install Intellij (IDEA here)[https://www.jetbrains.com/idea/]
+Install [Intellij IDEA](https://www.jetbrains.com/idea/)
+```
 
