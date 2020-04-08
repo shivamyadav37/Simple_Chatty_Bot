@@ -14,8 +14,10 @@ Install EduTools Plugin for IntelliJ IDEA.
 
 ### Built With 
 
-IntelliJ IDEA
-[Hyperskill](https://hyperskill.org/)
+* IntelliJ IDEA
+
+
+* [Hyperskill](https://hyperskill.org/)
 
 ## Authors 
 
