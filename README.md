@@ -12,6 +12,7 @@ Download IntelliJ IDEA [here](https://www.jetbrains.com/idea/)
 Install EduTools Plugin for IntelliJ IDEA.
 ```
 
+
 ### Built With 
 
 * IntelliJ IDEA
@@ -24,6 +25,8 @@ Install EduTools Plugin for IntelliJ IDEA.
 * **Shivam Yadav**
 
 ## License
+
+GNU General Public License v3.0
 
 
 ## Acknowledgements
