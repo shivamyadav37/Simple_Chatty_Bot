@@ -5,9 +5,11 @@ Building a Simple Chatbot from scratch using Java Language on Hyperskill
 
 IntelliJ IDEA
 
+
 ### Installation
 
 ```
-Install [Intellij IDEA](https://www.jetbrains.com/idea/)
+Install[Intellij IDEA
 ```
+Download IntelliJ IDEA [here](https://www.jetbrains.com/idea/)
 
